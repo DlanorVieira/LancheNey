@@ -1,4 +1,4 @@
-const nomes = ['Kikita', 'Ronaldo', 'Pavão'];
+const nomes = ['Natan', 'Ronaldo', 'Pavão'];
 const desafios = [
   'Você paga tudo!',
   'Escolhe o lanche de todo mundo!',
@@ -9,7 +9,6 @@ const desafios = [
   'Escolhe alguém pra dividir o lanche com você',
   'Não pode usar as mãos pra pegar o lanche.',
   'Só pode comer depois de todo mundo.',
-  'Diz uma frase filosófica sobre comida.',
   'Hoje escapou!',
 ];
 
