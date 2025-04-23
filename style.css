@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0488db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  .roleta {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+    transition: transform 3s ease-in-out;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  button:disabled {
+    background-color:   black;
+    cursor: not-allowed;
+  }
+
+  .resultado {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #0488db;
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
